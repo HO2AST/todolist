@@ -84,7 +84,7 @@ class TodoList extends React.Component<Props, State> {
             <div>
                 <form onSubmit = {onSubmit}>
                     <input onChange = {onChange} value = {input} />
-                    <button type = "submit">추가하기해주세요</button>
+                    <button type = "submit">추가하기</button>
                 </form>
                 <ul>
                     {todoItemList}
